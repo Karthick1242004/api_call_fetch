@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <input type='text' id='inp' placeholder='enter here' ></input>
+    <button type='submit' id='bt' >Click</button>
+    
+    <script>
+      let data = " ";
+      function handleChange(e){
+        data = e.target.value
+      }
+      function handleSubmit(){
+        console.log(data)
+      }
+      document.getElementById('inp').addEventListener('input',handleChange)
+      document.getElementById('bt').addEventListener('click',handleSubmit)
+    </script>
+  </body>
+</html>
