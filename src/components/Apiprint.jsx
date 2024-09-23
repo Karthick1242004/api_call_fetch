@@ -34,6 +34,7 @@ function Apiprint() {
         </div>
       ))}
       <button onClick={handleFilter}>Click to Apply filter</button>
+      <div></div>
     </div>
   )
 }
