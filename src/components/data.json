@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Wireless Bluetooth Headphones",
+      "price": 59.99,
+      "description": "High-quality wireless headphones with noise-cancellation and up to 12 hours of battery life."
+    },
+    {
+      "name": "Stainless Steel Water Bottle",
+      "price": 15.99,
+      "description": "Durable, leak-proof stainless steel bottle with 750ml capacity and a sleek design."
+    },
+    {
+      "name": "Smartwatch Fitness Tracker",
+      "price": 89.99,
+      "description": "Track your steps, heart rate, and sleep with this stylish and water-resistant smartwatch."
+    },
+    {
+      "name": "USB-C Laptop Charger",
+      "price": 29.99,
+      "description": "Fast-charging USB-C charger compatible with most laptops, smartphones, and tablets."
+    },
+    {
+      "name": "4K Ultra HD Action Camera",
+      "price": 129.99,
+      "description": "Capture stunning 4K footage with this waterproof action camera, ideal for adventure seekers."
+    },
+    {
+      "name": "Organic Cotton T-shirt",
+      "price": 24.99,
+      "description": "Soft and eco-friendly T-shirt made from 100% organic cotton, available in multiple colors."
+    },
+    {
+      "name": "Ergonomic Office Chair",
+      "price": 199.99,
+      "description": "Comfortable office chair with adjustable height, lumbar support, and breathable mesh back."
+    },
+    {
+      "name": "Portable Phone Stand",
+      "price": 12.99,
+      "description": "Compact and foldable phone stand, perfect for hands-free viewing at any angle."
+    },
+    {
+      "name": "Noise-Cancelling Earbuds",
+      "price": 49.99,
+      "description": "Wireless earbuds with active noise cancellation and up to 8 hours of playtime on a single charge."
+    },
+    {
+      "name": "Smart LED Light Bulb",
+      "price": 19.99,
+      "description": "Control the brightness and color of your lights with this app-controlled, energy-efficient LED bulb."
+    }
+  ]
+  

@@ -1,17 +1,16 @@
-import { useEffect, useState } from 'react'
-import './App.css'
-import axios from 'axios';
-// import Home from './components/Home';
-import Basic from './components/Basic';
-import Apiprint from './components/Apiprint';
+import './App.css';
+import Counter from './components/Counter';
+import Zustandcart from './components/Zustandcart';
+import Zustand from './components/Zustandproduct';
 
 function App() {
   return (
     <div className='form'>
-      {/* <Home/> */}
-      <Apiprint />
+      <Zustand />
+      <Zustandcart />
+      <Counter/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
