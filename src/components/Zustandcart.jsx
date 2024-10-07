@@ -1,26 +1,41 @@
-import React from 'react';
-import { useCartStore } from '../cartStore';  // Import the store
+// import React from 'react'
+// import useCart from '../cartStore'
+
+// function Zustandcart() {
+// const cart = useCart((state)=>state.cart)
+//   return (
+//     <div>
+//      {cart.map((item,index)=>(
+//       <div key={index}>
+//         <h3>{item.name}</h3>
+//         <p>{item.price}</p>
+//       </div>
+//      ))}
+//     </div>
+//   )
+// }
+
+// export default Zustandcart
+
+
+
+
+
+import React from 'react'
+import useCart from '../cartStore'
 
 function Zustandcart() {
-  const cart = useCartStore((state) => state.cart);  // Get the cart items from the store
-
+const cart = useCart((state)=>state.cart)
   return (
     <div>
-      <h2>Your Cart</h2>
-      {cart.length === 0 ? (
-        <p>No items in cart.</p>
-      ) : (
-        <ul>
-          {cart.map((item, index) => (
-            <li key={index}>
-              <h3>{item.name}</h3>
-              <p>Price: ${item.price.toFixed(2)}</p>
-            </li>
-          ))}
-        </ul>
-      )}
+      {cart.map((item,index)=>(
+        <div key={index}>
+          <p>{item.name}</p>
+          <p>{item.price}</p>
+        </div>
+      )) }
     </div>
-  );
+  )
 }
 
-export default Zustandcart;
+export default Zustandcart

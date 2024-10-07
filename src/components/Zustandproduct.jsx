@@ -1,20 +1,21 @@
-import React from 'react';
-import Productdata from './data.json';
-import { useCartStore } from '../cartStore';  // Import the store
+import React from 'react'
+import data from './data.json'
+import useCart from '../cartStore';
 
-function Zustand() {
-  const addToCart = useCartStore((state) => state.addToCart);  // Get the addToCart function from the store
-
+function Zustandproduct() {
+  const setCart = useCart((state)=>state.setCart)
   return (
     <div>
-      {Productdata.map((prod, index) => (
+      {data.map((item,index)=>(
         <div key={index}>
-          <h1>{prod.name}</h1>
-          <button onClick={() => addToCart(prod)}>Add to cart</button>
+          <h1>{item.name}</h1>
+          <p>{item.price}</p>
+          <button onClick={()=>setCart(item)}>Add to Cart</button>
         </div>
       ))}
     </div>
-  );
+  )
 }
 
-export default Zustand;
+
+export default Zustandproduct
